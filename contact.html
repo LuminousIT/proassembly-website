@@ -24,38 +24,41 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="site-logo">
           <a class="navbar-brand" href="#">
-              <img src="assets/img/logo.png" width="60" height="60">
-            Prophetic Assembly
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto ">
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Home</a>
+            <img src="assets/img/pro-logo.png"  id="logo" >
+          
+        </a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="gallery.html">Gallery </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Gallery</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">About Us  <span class="sr-only">(current)</span></a>
-                </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <span class="red-btn">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Donate</a>
-                </li>
-              </span>
-             
-            </ul>
-          </div>
-        </nav>
-      </header>
+              <span class="red-btn">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Donate</a>
+              </li>
+            </span>
+           
+          </ul>
+        </div>
+      </nav>
+    </header>
 
       <div >
 
@@ -73,67 +76,72 @@
       </div> 
 
       <section>
-          <div class="container">
+          <div class="container ">
             <div class="row">
-                <form action="https://formspree.io/mbjdazdw" method="POST">
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="name" class="form-control" id="name" placeholder="Name" name="name">
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="_replyto" >
-                    </div>
-                    <div class="form-group">
-                      <label for="title">Title</label>
-                      <input type="name" class="form-control" id="title" placeholder="Enter Mail Title">
-                    </div>
-                    <div class="form-group">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" id="message" rows="3" name="message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                  </form>
+              <div class=" col-xs-12 col-sm-12 col-md-8 offset-2">
+                <form action="" method="POST">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Name" name="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" name="_replyto" >
+                  </div>
+                  <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="name" class="form-control" id="title" placeholder="Enter Mail Title">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+              </div>
+                
             </div>
           </div>
       </section>
      
-      <!-- FOOTER -->
-      <footer class="footer">
-        <div class="container">
-          <div class="row footer-content">
-            <div class="col-md-12 col-lg-4">
-              <h3>Quick Links</h3>
-              <ul>
-                <li> Home </li>
-                <li> Gallery </li>
-                <li> About Us </li>
-              </ul>
-            </div>
-            <div class="col-md-12 col-lg-4">
-              <h3>Contact us</h3>
-              <h5 class="display-5">(234) 703 864 2077</h5>
-              <p>Emmanuel Baptist Church, Eyenkorin <br/> Ilorin, Kwara State, Nigeria.</p>
-            </div>
-            <div class="col-md-12 col-lg-4">
-              <h3>Social Links</h3>
-              <div class="footer-social-info">
-                <a href="https://facebook.com/#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://instagram.com/#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                <a href="https://linkedin.com/company/#" class="linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                
-                <!-- <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a> -->
-            </div>
-            </div>
-          </div>
-          <div class="">
+     <!-- FOOTER -->
+     <footer class="footer">
+      <div class="container">
+        <div class="row footer-content">
+          <div class="col-md-12 col-lg-4">
+            <h3>Quick Links</h3>
+            <ul>
+              <a href="index.html"><li> Home </li></a>
+              <a href="gallery.html"><li> Gallery </li></a>
+              <a href="about.html"><li> About Us </li></a>
+              <a href="contact.html"><li> Contact Us </li></a>
 
+            </ul>
           </div>
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy;   2020 &middot; Prophetic Assembly &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <div class="col-md-12 col-lg-4">
+            <h3>Contact us</h3>
+            <h5 class="display-5">(234) 703 057 8674</h5>
+            <p>Emmanuel Baptist Church, Eyenkorin <br/> Ilorin, Kwara State, Nigeria.</p>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <h3>Social Links</h3>
+            <div class="footer-social-info">
+              <a href="https://facebook.com/propheticassembly" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://instagram.com/propheticassembly" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://youtube.com/company/propheticassembly" class="youtube" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a>
+              <a href="https://twitter.com/#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://linkedin.com/company/#" class="linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+              <!-- <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a> -->
+          </div>
+          </div>
         </div>
-      </footer>
+        <div class="">
+
+        </div>
+          <p class="float-right"><a href="#">Back to top</a></p>
+          <p>&copy;   2020 &middot; Prophetic Assembly &middot; <br/><span class="footnote"><a href="#">(Website design by</a> &middot; <a href="#">+2347038642077)</a></span c></p>
+      </div>
+    </footer>
     
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
