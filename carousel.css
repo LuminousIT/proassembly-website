@@ -332,13 +332,21 @@ table td {
   vertical-align: middle;
 }
 
-.site-logo img {
+.site-logo a img {
   vertical-align: baseline;
+  width: 350;
 }
 
 .site-nav {
   float: right;
   position: relative;
   z-index: 1000;
+}
+
+@media screen and (max-width: 500px) {
+  .site-logo img {
+    vertical-align: baseline;
+    width: 200;
+  }
 }
 
