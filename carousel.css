@@ -162,8 +162,8 @@ section p {
   background-color: #777;
 }
 .carousel-item > img {
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  top: 50;
   left: 0;
   /* min-width: 100%;
   height: 32rem; */
@@ -172,6 +172,76 @@ section p {
   background-size: cover;
 }
 
+.header-img-test {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+  ),   url("assets/img/ban2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.header-img-test2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    rgba(0,0,0,100)
+  ), url("assets/img/12.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-img-test3 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    rgba(0,0,0,100)
+  ), url("assets/img/cic-pd.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.header-img-test4 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    rgba(0,0,0,100)
+  ), url("assets/img/widow1.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.header-img-test5 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    rgba(0,0,0,100)
+  ), url("assets/img/orphan.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.header-img-test6 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    rgba(0,0,0,100)
+  ), url("assets/img/retired.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
 .partner h1 {
   text-align: center;
 }
@@ -211,8 +281,10 @@ table td {
 
 .footer-social-info a{
   display: inline-block;
+  /* display: block; */
   color: white;
-  margin-right: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
   background-color: #00487c;
   width: 40px;
   height: 40px;
@@ -251,7 +323,8 @@ table td {
   letter-spacing: -.05rem;
   color: #00487c;
   text-align: center;
-  /* padding: 8px 0; */
+  margin-bottom: 10px;
+  
 }
 
 #about-pro {
@@ -396,9 +469,16 @@ header .navbar .site-logo .navbar-brand img {
   .about-img img {
     width: 90%;
   }
+
+  .featurette-heading {
+    padding: 18px 0;
+  }
   /* .carousel-item > img {
     width: 100%;
   } */
+}
+.navopts li {
+  margin-top: 10px 0px;
 }
 
 form {
@@ -408,4 +488,9 @@ form {
 .footnote{
   font-size: 0.8em;
 }
-
+.mission-list, .pastproj {
+  margin-bottom: 16px;
+}
+.pastproj {
+  margin-bottom: 10px;
+}
