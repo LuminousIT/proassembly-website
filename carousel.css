@@ -158,14 +158,18 @@ section p {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  /* height: 100%; */
   background-color: #777;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 32rem;
+  /* min-width: 100%;
+  height: 32rem; */
+  width:100%;
+  height: 100%;
+  background-size: cover;
 }
 
 .partner h1 {
@@ -392,6 +396,9 @@ header .navbar .site-logo .navbar-brand img {
   .about-img img {
     width: 90%;
   }
+  /* .carousel-item > img {
+    width: 100%;
+  } */
 }
 
 form {
