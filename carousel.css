@@ -226,7 +226,7 @@ section p {
     rgba(0,0,0,100)
   ), url("assets/img/orphan.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: left;
   width: 100%;
   height: 100%;
 }
@@ -238,7 +238,7 @@ section p {
     rgba(0,0,0,100)
   ), url("assets/img/retired.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: left;
   width: 100%;
   height: 100%;
 }
